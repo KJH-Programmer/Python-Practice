@@ -34,7 +34,7 @@ class Programmer(Human):
 sungjin = Programmer(name = "성진", age=21, location = "광주", hobby = "게임")
 sungjin.do_hobby()    # do_hobby 라는 함수는 없지만, 위에 Human이라는 class 를 상속받아서 사용이 가능하다. 
 sungjin.coding()      
-
+print()
 
 class Programer(Human):
     def coding(self):
@@ -44,4 +44,4 @@ class Programer(Human):
     def __str__(self):
         return f"Programmer(age={self.age}, name={self.name}, location={self.location}, hobby={self.hobby})"
 sungjin = Human(name = "성진", age=21, location = "광주", hobby = "게임")
-sungjin.do_hobby()    
+#sungjin.do_hobby()  -> sungjin.coding() Human 이라는 클래스에는 coding 이라는 함수가 없기에 오류 발생
