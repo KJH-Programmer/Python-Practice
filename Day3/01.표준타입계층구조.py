@@ -1,7 +1,6 @@
-# 빅오표기법 실습 ##
+## 빅오표기법 실습 ##
 
 import time
-
 def is_even(n):
     return n % 2 == 0
 
