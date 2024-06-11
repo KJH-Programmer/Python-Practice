@@ -8,6 +8,7 @@ heapq.heappush(min_heap, 3)
 heapq.heappush(min_heap, 1)
 heapq.heappush(min_heap, 4)
 heapq.heappush(min_heap, 2)
+print(min_heap)
 
 min_value = heapq.heappop(min_heap)
 min_value = heapq.heappop(min_heap)
