@@ -33,3 +33,4 @@ for _ in range(n):
 while heap:
     word = heapq.heappop(heap)
     print(word)
+print()
